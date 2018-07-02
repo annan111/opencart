@@ -1,0 +1,12 @@
+@import '../_main';
+
+.common-home {
+	.bt-instagram {
+		margin-bottom: 100px;
+	}
+	.bt-featured-pro {
+		&.style-1 {
+			margin-bottom: 60px;
+		}
+	}
+}

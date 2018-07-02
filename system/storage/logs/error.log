@@ -1,0 +1,27 @@
+2018-06-29 8:19:03 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in D:\phpStudy\PHPTutorial\WWW\example4\system\library\mail.php on line 158
+2018-06-29 8:25:06 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in D:\phpStudy\PHPTutorial\WWW\example4\system\library\mail.php on line 158
+2018-06-29 8:25:07 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in D:\phpStudy\PHPTutorial\WWW\example4\system\library\mail.php on line 158
+2018-06-29 8:25:09 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in D:\phpStudy\PHPTutorial\WWW\example4\system\library\mail.php on line 158
+2018-06-29 8:50:30 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in D:\phpStudy\PHPTutorial\WWW\example4\system\library\mail.php on line 158
+2018-06-29 8:50:31 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in D:\phpStudy\PHPTutorial\WWW\example4\system\library\mail.php on line 158
+2018-06-29 8:50:34 - PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in D:\phpStudy\PHPTutorial\WWW\example4\system\library\mail.php on line 158
+2018-07-02 1:27:38 - PHP Notice:  Undefined variable: help_app_id in D:\phpStudy\PHPTutorial\WWW\example4\admin\view\template\extension\payment\alipay_direct.tpl on line 35
+2018-07-02 1:27:38 - PHP Notice:  Undefined variable: help_total in D:\phpStudy\PHPTutorial\WWW\example4\admin\view\template\extension\payment\alipay_direct.tpl on line 64
+2018-07-02 1:27:38 - PHP Notice:  Undefined variable: help_log in D:\phpStudy\PHPTutorial\WWW\example4\admin\view\template\extension\payment\alipay_direct.tpl on line 111
+2018-07-02 1:27:38 - PHP Notice:  Undefined variable: help_trade_finished in D:\phpStudy\PHPTutorial\WWW\example4\admin\view\template\extension\payment\alipay_direct.tpl on line 133
+2018-07-02 1:27:38 - PHP Notice:  Undefined variable: help_trade_success in D:\phpStudy\PHPTutorial\WWW\example4\admin\view\template\extension\payment\alipay_direct.tpl on line 148
+2018-07-02 1:35:17 - PHP Notice:  Undefined variable: help_app_id in D:\phpStudy\PHPTutorial\WWW\example4\admin\view\template\extension\payment\alipay_direct.tpl on line 35
+2018-07-02 1:35:17 - PHP Notice:  Undefined variable: help_total in D:\phpStudy\PHPTutorial\WWW\example4\admin\view\template\extension\payment\alipay_direct.tpl on line 64
+2018-07-02 1:35:17 - PHP Notice:  Undefined variable: help_log in D:\phpStudy\PHPTutorial\WWW\example4\admin\view\template\extension\payment\alipay_direct.tpl on line 111
+2018-07-02 1:35:17 - PHP Notice:  Undefined variable: help_trade_finished in D:\phpStudy\PHPTutorial\WWW\example4\admin\view\template\extension\payment\alipay_direct.tpl on line 133
+2018-07-02 1:35:17 - PHP Notice:  Undefined variable: help_trade_success in D:\phpStudy\PHPTutorial\WWW\example4\admin\view\template\extension\payment\alipay_direct.tpl on line 148
+2018-07-02 1:36:03 - PHP Notice:  Undefined variable: help_app_id in D:\phpStudy\PHPTutorial\WWW\example4\admin\view\template\extension\payment\alipay_direct.tpl on line 35
+2018-07-02 1:36:03 - PHP Notice:  Undefined variable: help_total in D:\phpStudy\PHPTutorial\WWW\example4\admin\view\template\extension\payment\alipay_direct.tpl on line 64
+2018-07-02 1:36:03 - PHP Notice:  Undefined variable: help_log in D:\phpStudy\PHPTutorial\WWW\example4\admin\view\template\extension\payment\alipay_direct.tpl on line 111
+2018-07-02 1:36:03 - PHP Notice:  Undefined variable: help_trade_finished in D:\phpStudy\PHPTutorial\WWW\example4\admin\view\template\extension\payment\alipay_direct.tpl on line 133
+2018-07-02 1:36:03 - PHP Notice:  Undefined variable: help_trade_success in D:\phpStudy\PHPTutorial\WWW\example4\admin\view\template\extension\payment\alipay_direct.tpl on line 148
+2018-07-02 1:36:40 - PHP Notice:  Undefined variable: help_app_id in D:\phpStudy\PHPTutorial\WWW\example4\admin\view\template\extension\payment\alipay_direct.tpl on line 35
+2018-07-02 1:36:40 - PHP Notice:  Undefined variable: help_total in D:\phpStudy\PHPTutorial\WWW\example4\admin\view\template\extension\payment\alipay_direct.tpl on line 64
+2018-07-02 1:36:40 - PHP Notice:  Undefined variable: help_log in D:\phpStudy\PHPTutorial\WWW\example4\admin\view\template\extension\payment\alipay_direct.tpl on line 111
+2018-07-02 1:36:40 - PHP Notice:  Undefined variable: help_trade_finished in D:\phpStudy\PHPTutorial\WWW\example4\admin\view\template\extension\payment\alipay_direct.tpl on line 133
+2018-07-02 1:36:40 - PHP Notice:  Undefined variable: help_trade_success in D:\phpStudy\PHPTutorial\WWW\example4\admin\view\template\extension\payment\alipay_direct.tpl on line 148

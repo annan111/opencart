@@ -1,0 +1,154 @@
+
+/*
+* @description:Common css style
+* @author: jack
+* @update: jack (2013-08-12 18:32)
+*/
+/* font-size */
+.fs8{display:inline-block; font-size:8px; -webkit-transform: scale(0.67);}
+.fs9{display:inline-block; font-size:9px; -webkit-transform: scale(0.75);}
+.fs10{display:inline-block; font-size:10px; -webkit-transform: scale(0.82);}
+.fs11{display:inline-block; font-size:11px; -webkit-transform: scale(0.9);}
+.fs13{font-size:13px;}
+.fs15{font-size:15px;}
+.fs14{font-size:14px;}
+.fs16{font-size:16px;}
+.fs18{font-size:18px;}
+.fs20{font-size:20px;}
+.fs22{font-size:22px;}
+.fs24{font-size:24px;}
+.fs26{font-size:26px;}
+.fs30{font-size:30px;}
+.fs60{font-size:60px;}
+/* Color*/
+.c88{color:#888888}
+.c3b5{color:#3b5b98}
+.c89{color:#898989}
+.cff{color:#fff}
+.c68{color:#868686}
+.c4{color:#444;}
+.bb{color:#bbbbbb;}
+.1c{color:#1c54c3;}
+.c3{color:#333333;}
+.cf{color:#ffffff;}
+.cc7{color: #c7c7c7;}
+.aa{color:#aaaaaa}
+.c5ac{color:#5acb7a}
+.c09{color:#09b8ae}
+.c37{color:#373737}
+.c00{color:#000000;}
+/* Font */
+.ls1{letter-spacing: .5px;}
+.ws1{word-spacing: 1px;}
+/* font-weight css */
+.fw{font-weight: 600;}
+.fw-200{font-weight:200;}
+/* float */
+.fl{float:left}
+.fr{float:right}
+.fi{float:inherit}
+.fn{float:none}
+/* text-align */
+.t-center{text-align:center;}
+.t-left{text-align:left;}
+.t-right{text-align:right;}
+.t-inherit{text-align:inherit;}
+/* Margin */
+.mt15{margin-top:15px;}
+.mt20{margin-top:20px;}
+.mt30{margin-top:30px;}
+.mt35{margin-top:35px;}
+.mt40{margin-top:40px;}
+.mt41{margin-top:41px;}
+.mt42{margin-top:42px;}
+.mt43{margin-top:43px;}
+.mt45{margin-top:45px;}
+.mt50{margin-top:50px;}
+.mt60{margin-top:60px;}
+.mt70{margin-top:70px;}
+.ml30{margin-left:30px}
+.ml20{margin-left:20px}
+.mr10{margin-right:10px}
+.mr20{margin-right:20px}
+.mb10{margin-bottom:10px;}
+.mb20{margin-bottom:20px}
+.mb30{margin-bottom:30px}
+.mb40{margin-bottom:40px}
+.mb50{margin-bottom:50px;}
+.mb60{margin-bottom:60px;}
+.mb70{margin-bottom:70px;}
+.mb80{margin-bottom:80px;}
+.mb90{margin-bottom:90px;}
+.mb100{margin-bottom:100px;}
+.mt150{margin-top:150px;}
+/* Padding */
+.pb0{padding-bottom:0px;}
+.p0{padding:0;}
+.pl0{padding-left:0px;}
+.pt10{padding-top:10px;}
+.pt20{padding-top:20px;}
+.pt30{padding-top:30px;}
+.pt40{padding-top:40px;}
+.pt50{padding-top:50px;}
+.pb10{padding-bottom:10px;}
+.pb20{padding-bottom:20px;}
+.pb30{padding-bottom:30px;}
+.pb40{padding-bottom:40px;}
+.pb50{padding-bottom:50px;}
+.pb60{padding-bottom:60px;}
+.pb70{padding-bottom:70px;}
+.pb80{padding-bottom:80px;}
+.pl10{padding-left: 10px;}
+.pl20{padding-left: 20px;}
+.pl30{padding-left: 30px;}
+.pl40{padding-left: 40px;}
+.pl50{padding-left: 50px;}
+.plr15{padding:0 10px;}
+.pr10{padding-right: 10px;}
+.pr20{padding-right: 20px;}
+.pr30{padding-right: 30px;}
+.pr30{padding-right: 30px;}
+.pr40{padding-right: 40px;}
+.pr50{padding-right: 50px;}
+.ptb20{padding:20px 0;}
+.ptb24{padding:24px 0;}
+.ptb40{padding:40px 0;}
+.plr38{padding:0 38px}
+.pt65{padding-top:65px}
+.pb45{padding-bottom:45px}
+.pt60{padding-top:60px}
+.col-md-2-5{width:20%; float: left;}
+/* text-align */
+.tac{text-align:center;}
+.tar{text-align:right;}
+.tal{text-align:left;}
+/* line-height */
+.lh18{line-height:18px;}
+.lh20{line-height:20px;}
+.lh22{line-height:22px;}
+.lh24{line-height:24px;}
+.lh28{line-height:28px;}
+.lh36{line-height:36px;}
+.lh40{line-height:40px;}
+.lh44{line-height:44px;}
+.lh55{line-height:55px;}
+.lh60{line-height:55px;}
+/* text-transform */
+.txt-u{text-transform:capitalize;}
+.txt-c{text-transform: capitalize;}
+/* text-decoration */
+.text-u{text-decoration:underline;}
+/* cursor */
+.cursor-p{cursor: pointer;}
+/* Foldshade css */
+.foldshade{width:100%; float:left; border-top:1px solid #ebebeb}
+.foldshade h2 + *{display: none;}
+.product-essential h2{font-size: 14px; text-transform: uppercase;padding: 10px 0 0 0;}
+.opened{padding: 10px 10px;}
+.foldshade h2:before{content: "\e80b"; width: 26px; height: 26px; display: block; font-family: 'porto'; position: absolute; right: 15px; margin-top: 0px; border-radius: 3px; color: #ccc; text-align: center;line-height: 16px;font-size: 10px;}
+.foldshade h2:hover:before,.shipping h2:hover:before{}
+.foldshade h2.opened:before,.shipping h2.opened:before{content:"\e80d"}
+.foldshade-bot{width:100%; float:left; border-top:1px solid #ebebeb}
+.standard-product-list .element .details-area .actions .options .required-entry{width: 70%;}
+.loading-box .is-loading{opacity:0;}
+.loading-box{background:#f7f8f9;background-image:url(../images/loading.gif) ;background-repeat:no-repeat;background-position:center center;width:100% !important;height:auto !important;max-width: 350px;}

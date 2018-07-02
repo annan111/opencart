@@ -1,0 +1,50 @@
+@import '../_main';
+/*search*/
+#search {
+	position: relative;
+	padding: 10px 0px;
+	&:after {
+		content: " ";
+		position: absolute;
+		right: 0px;
+		bottom: 0px;
+		width: 100%;
+		border-top: 1px solid $border_color;
+		@include transition_ease(0.5s);
+		opacity: 0;
+	}
+	input, button {
+		padding: 0px;
+		margin: 0px;
+		height: auto;
+		border: none;
+		background: transparent;
+	}
+	input {
+		font-size: 12px;
+	}
+	.dropdown-menu {
+		position: static;
+		display: inline-block;
+		vertical-align: middle;
+		background: transparent;
+		min-width: 0px;
+		margin: 0px;
+		float: none;
+		padding: 0px;
+		width: 0px;
+		box-shadow: none;
+		-webkit-transform: initial;
+		-ms-transform: initial;
+		transform: initial;
+		
+	}
+	&:hover, &.open {
+		.dropdown-menu {
+			width: 140px;
+		}
+		&:after {
+			opacity: 1;
+		}
+	}
+}

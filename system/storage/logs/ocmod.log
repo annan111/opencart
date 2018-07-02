@@ -1,0 +1,330 @@
+2017-10-12 9:36:15 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Bossthemes
+CODE: $output = $template->render
+LINE: 89
+
+FILE: admin/controller/startup/permission.php
+CODE: 'extension/module',
+LINE: 27
+
+FILE: admin/controller/common/column_left.php
+CODE: if ($extension) {
+LINE: 209
+
+FILE: catalog/controller/startup/maintenance.php
+CODE: public function index() {
+LINE: 8
+----------------------------------------------------------------
+MOD: <font color="#0000"><b>Add Newsletter Menu</font>
+CODE: if ($marketing) {
+LINE: 420
+
+FILE: admin/controller/marketing/contact.php
+CODE: case 'newsletter':
+LINE: 127
+
+FILE: admin/model/customer/customer.php
+CODE: class ModelCustomerCustomer extends Model {
+LINE: 8
+----------------------------------------------------------------
+MOD: <font color="#0000"><b>Boss Layout</font>
+
+FILE: admin/controller/design/layout.php
+CODE: $this->load->language('design/layout');
+LINE: 8
+LINE: 21
+LINE: 56
+LINE: 91
+CODE: $data['text_column_right'] = $this->language->get('text_column_right');
+LINE: 288
+
+FILE: admin/view/template/design/layout_form.tpl
+CODE: <?php $module_row = 0; ?>
+LINE: 292
+CODE: </form>
+LINE: 782
+CODE: #module-content-bottom
+LINE: 841
+LINE: 851
+
+FILE: catalog/controller/common/header.php
+CODE: $data['title'] = $this->document->getTitle();
+LINE: 31
+
+FILE: catalog/controller/common/footer.php
+CODE: $this->load->language('common/footer');
+LINE: 8
+CODE: $design = array();
+LINE: 231
+----------------------------------------------------------------
+MOD: <font color="#0000"><b>Boss Testimonial</font>
+CODE: if ($catalog) {
+LINE: 155
+----------------------------------------------------------------
+MOD: <font color="#0000"><b>Seo Boss Blog</font>
+
+FILE: catalog/controller/startup/seo_url.php
+CODE: $url = explode('=', $query->row['query']);
+LINE: 24
+CODE: if ($query->row['query'] && $url[0] != 'information_id' && $url[0] != 'manufacturer_id' && $url[0] != 'category_id' && $url[0] != 'product_id') {
+LINE: 63
+CODE: if ($query->row['query'] && $url[0] != 'information_id' && $url[0] != 'manufacturer_id' && $url[0] != 'category_id' && $url[0] != 'product_id') {
+LINE: 63
+CODE: } elseif (isset($this->request->get['path'])) {
+LINE: 84
+CODE: if (($data['route'] == 'product/product' && $key == 'product_id') || (($data['route'] == 'product/manufacturer/info' || $data['route'] == 'product/product') && $key == 'manufacturer_id') || ($data['route'] == 'information/information' && $key == 'information_id')) {
+LINE: 133
+----------------------------------------------------------------
+2017-10-12 9:37:46 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Bossthemes
+CODE: $output = $template->render
+LINE: 89
+
+FILE: admin/controller/startup/permission.php
+CODE: 'extension/module',
+LINE: 27
+
+FILE: admin/controller/common/column_left.php
+CODE: if ($extension) {
+LINE: 209
+
+FILE: catalog/controller/startup/maintenance.php
+CODE: public function index() {
+LINE: 8
+----------------------------------------------------------------
+MOD: <font color="#0000"><b>Add Newsletter Menu</font>
+CODE: if ($marketing) {
+LINE: 420
+
+FILE: admin/controller/marketing/contact.php
+CODE: case 'newsletter':
+LINE: 127
+
+FILE: admin/model/customer/customer.php
+CODE: class ModelCustomerCustomer extends Model {
+LINE: 8
+----------------------------------------------------------------
+MOD: <font color="#0000"><b>Boss Layout</font>
+
+FILE: admin/controller/design/layout.php
+CODE: $this->load->language('design/layout');
+LINE: 8
+LINE: 21
+LINE: 56
+LINE: 91
+CODE: $data['text_column_right'] = $this->language->get('text_column_right');
+LINE: 288
+
+FILE: admin/view/template/design/layout_form.tpl
+CODE: <?php $module_row = 0; ?>
+LINE: 292
+CODE: </form>
+LINE: 782
+CODE: #module-content-bottom
+LINE: 841
+LINE: 851
+
+FILE: catalog/controller/common/header.php
+CODE: $data['title'] = $this->document->getTitle();
+LINE: 31
+
+FILE: catalog/controller/common/footer.php
+CODE: $this->load->language('common/footer');
+LINE: 8
+CODE: $design = array();
+LINE: 231
+----------------------------------------------------------------
+MOD: <font color="#0000"><b>Boss Testimonial</font>
+CODE: if ($catalog) {
+LINE: 155
+----------------------------------------------------------------
+MOD: <font color="#0000"><b>Seo Boss Blog</font>
+
+FILE: catalog/controller/startup/seo_url.php
+CODE: $url = explode('=', $query->row['query']);
+LINE: 24
+CODE: if ($query->row['query'] && $url[0] != 'information_id' && $url[0] != 'manufacturer_id' && $url[0] != 'category_id' && $url[0] != 'product_id') {
+LINE: 63
+CODE: if ($query->row['query'] && $url[0] != 'information_id' && $url[0] != 'manufacturer_id' && $url[0] != 'category_id' && $url[0] != 'product_id') {
+LINE: 63
+CODE: } elseif (isset($this->request->get['path'])) {
+LINE: 84
+CODE: if (($data['route'] == 'product/product' && $key == 'product_id') || (($data['route'] == 'product/manufacturer/info' || $data['route'] == 'product/product') && $key == 'manufacturer_id') || ($data['route'] == 'information/information' && $key == 'information_id')) {
+LINE: 133
+----------------------------------------------------------------
+2017-10-12 9:38:47 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Bossthemes
+CODE: $output = $template->render
+LINE: 89
+
+FILE: admin/controller/startup/permission.php
+CODE: 'extension/module',
+LINE: 27
+
+FILE: admin/controller/common/column_left.php
+CODE: if ($extension) {
+LINE: 209
+
+FILE: catalog/controller/startup/maintenance.php
+CODE: public function index() {
+LINE: 8
+----------------------------------------------------------------
+MOD: <font color="#0000"><b>Add Newsletter Menu</font>
+CODE: if ($marketing) {
+LINE: 420
+
+FILE: admin/controller/marketing/contact.php
+CODE: case 'newsletter':
+LINE: 127
+
+FILE: admin/model/customer/customer.php
+CODE: class ModelCustomerCustomer extends Model {
+LINE: 8
+----------------------------------------------------------------
+MOD: <font color="#0000"><b>Boss Layout</font>
+
+FILE: admin/controller/design/layout.php
+CODE: $this->load->language('design/layout');
+LINE: 8
+LINE: 21
+LINE: 56
+LINE: 91
+CODE: $data['text_column_right'] = $this->language->get('text_column_right');
+LINE: 288
+
+FILE: admin/view/template/design/layout_form.tpl
+CODE: <?php $module_row = 0; ?>
+LINE: 292
+CODE: </form>
+LINE: 782
+CODE: #module-content-bottom
+LINE: 841
+LINE: 851
+
+FILE: catalog/controller/common/header.php
+CODE: $data['title'] = $this->document->getTitle();
+LINE: 31
+
+FILE: catalog/controller/common/footer.php
+CODE: $this->load->language('common/footer');
+LINE: 8
+CODE: $design = array();
+LINE: 231
+----------------------------------------------------------------
+MOD: <font color="#0000"><b>Boss Testimonial</font>
+CODE: if ($catalog) {
+LINE: 155
+----------------------------------------------------------------
+MOD: <font color="#0000"><b>Seo Boss Blog</font>
+
+FILE: catalog/controller/startup/seo_url.php
+CODE: $url = explode('=', $query->row['query']);
+LINE: 24
+CODE: if ($query->row['query'] && $url[0] != 'information_id' && $url[0] != 'manufacturer_id' && $url[0] != 'category_id' && $url[0] != 'product_id') {
+LINE: 63
+CODE: if ($query->row['query'] && $url[0] != 'information_id' && $url[0] != 'manufacturer_id' && $url[0] != 'category_id' && $url[0] != 'product_id') {
+LINE: 63
+CODE: } elseif (isset($this->request->get['path'])) {
+LINE: 84
+CODE: if (($data['route'] == 'product/product' && $key == 'product_id') || (($data['route'] == 'product/manufacturer/info' || $data['route'] == 'product/product') && $key == 'manufacturer_id') || ($data['route'] == 'information/information' && $key == 'information_id')) {
+LINE: 133
+----------------------------------------------------------------
